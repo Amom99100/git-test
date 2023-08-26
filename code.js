@@ -98,15 +98,15 @@ let $ = document
 
 let x=20
 
+let log=function(){
 
+}
+let loog=function(){
 
+}
+let looog=function(){
 
-
-
-
-
-
-
+}
 
 let y=50
 
