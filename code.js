@@ -96,20 +96,10 @@ let $ = document
 
 
 
-let x=20
-
-
-
-
-
-
-
-
-
-
-
-let y=50
-
+let x=30
+let e=30
+let d=30
+let w=30
 
 
 
