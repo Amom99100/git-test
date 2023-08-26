@@ -99,7 +99,9 @@ let $ = document
 let x=20
 
 
-
+if(x==30){
+console.log(x);
+}
 
 
 
