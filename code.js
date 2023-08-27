@@ -88,8 +88,8 @@ let $ = document
 
 
 let x=20
-
-
+let y=30
+let r=40
 
 
 
