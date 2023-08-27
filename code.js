@@ -95,8 +95,8 @@ let c=200
 let yy=98789
 
 
-function(x){
-x**3
+function n(x){
+ x**3
 }
 
 
