@@ -85,19 +85,42 @@ let $ = document
 
 
 
+let x=19  
+
+let y=x<18?'noo':'yes'
 
 
-let x=20
-let y=30
-let r=40
-let b=100
-let c=200
-let yy=98789
+console.log(y);
 
 
-function n(x){
- x**3
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
