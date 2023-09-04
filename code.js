@@ -93,7 +93,9 @@ let y=x<18?'noo':'yes'
 console.log(y);
 
 
-
+const x=()=>{
+    return false
+}
 
 
 
