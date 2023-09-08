@@ -108,28 +108,6 @@ let $ = document
 
 
 
-let btn=document.querySelector('button')
-
-btn.addEventListener('click',()=>{
-    
-window.navigator.clipboard.readText().then(res=>{
-
-console.log(res);
-
-
-})
-
-
-
-})
-
-
-
-hhhhhhhhhhhhhhhhhhhhhhhh
-
-f
-
-
 
 
 
