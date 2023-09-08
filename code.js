@@ -85,69 +85,49 @@ let $ = document
 
 
 
-let x=19  
+// let x=19  
 
-let y=x<18?'noo':'yes'
-
-
-console.log(y);
+// let y=x<18?'noo':'yes'
 
 
-const xr=()=>{
-    return false
-}
+// console.log(y);
 
 
-
-let xeeeeeeeeee=200
+// const xr=()=>{
+//     return false
+// }
 
 
 
-
-let as=1234567890
+// let xeeeeeeeeee=200
 
 
 
 
+// let as=1234567890
 
 
 
+let btn=document.querySelector('button')
+
+btn.addEventListener('click',()=>{
+    
+window.navigator.clipboard.readText().then(res=>{
+
+console.log(res);
+
+
+})
 
 
 
+})
 
 
 
+hhhhhhhhhhhhhhhhhhhhhhhh
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+f
 
 
 

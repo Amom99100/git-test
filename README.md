@@ -1,92 +1,101 @@
-# Sabzlearn Git Course Repo
 
----
+## Acknowledgements
 
-<p>This Respo is for session 54 of sabzlearn git course :))</p>
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
----
 
-## Code
+## API Reference
 
-Inline `code`
+#### Get all items
 
-```json
-{
-  "firstName": "Amin",
-  "lastName": "Saaedi",
-  "userName": "Amin_Saeedi_0101"
-}
+```http
+  GET /api/items
 ```
 
----
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-## Default Usage:
+#### Get item
 
-```javascript
-swal("Type something:", {
-  content: "input",
-}).then((value) => {
-  swal(`You typed: ${value}`);
-});
+```http
+  GET /api/items/${id}
 ```
 
----
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-## Lists
+#### add(num1, num2)
 
-Ordered:
-
-1. Javascript
-2. Npm
-3. React js
-4. Nodejs
-5. Express js
-
-Unordered:
-
-- FrontEnd (`Html` `Css` `Js` => Package)
-  - React js
-  - Vue js
-  - Angular js
-
-<!-- ## Sabzlearn Git Course Repo
-
-### Sabzlearn Git Course Repo
-
-#### Sabzlearn Git Course Repo
-
-##### Sabzlearn Git Course Repo
-
-###### Sabzlearn Git Course Repo -->
+Takes two numbers and returns the sum.
 
 
+## Appendix
 
----
-
-
-
-[mohammad](https://sabzlearn.ir/lesson/43-25686/)
----
-
-![git](https://secure.gravatar.com/avatar/50db59beddbfed36a1646dae99ca7b2d?s=96&d=mm&r=g)
+Any additional information goes here
 
 
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
 
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
 
 
+## Demo
+
+Insert gif or link to demo
 
 
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
 
 
+## Documentation
+
+[Documentation](https://linktodocumentation)
 
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
 
 
+## FAQ
 
+#### Question 1
 
+Answer 1
 
+#### Question 2
 
-
-
+Answer 2
 
